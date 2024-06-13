@@ -1,0 +1,8 @@
+.userinfo {
+    line-height: initial;
+    color: #fff;
+
+    @media (max-width: 620px) {
+        display: none;
+    }
+}
