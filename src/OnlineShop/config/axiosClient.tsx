@@ -1,6 +1,6 @@
 import axios from "axios";
 const axiosClient = axios.create({
-  baseURL: "http://localhost:9000/",
+  baseURL: "http://appliance-shop-api.onrender.com/",
   timeout: 30000,
 });
 axiosClient.interceptors.request.use(
